@@ -1,0 +1,13 @@
+# Air Traffic Analytics — Python dependencies
+
+# Kafka client
+kafka-python==2.0.2
+
+# HTTP (OpenSky API)
+requests==2.31.0
+
+# Spark (install separately via pip or use spark-submit --packages)
+pyspark==3.5.0
+
+# Optional: PostgreSQL instead of CSV output
+psycopg2-binary==2.9.9
